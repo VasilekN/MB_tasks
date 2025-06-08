@@ -8,8 +8,10 @@ def readme():
 
 setup(
     name='calc_figure_area',
-    version='0.0.5',
-    description=readme(),
+    version='0.0.6',
+    description='This library is test library.',
+    long_description=readme(),
+    long_description_content_type='text/markdown',
     license='MIT',
     packages=['calc_figure_area'],
     author='VasilekN',
